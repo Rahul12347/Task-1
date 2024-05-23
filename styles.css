@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header p{
+    margin-bottom: 40px;
+}
+
+.banner {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #8e24aa;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.company-name {
+    font-size: 24px;
+    
+}
+
+.dotted-hr{
+    border: 5px dotted #8e24aa;
+    border-style: none none dotted; 
+    color: #8e24aa; 
+    width: 50%;
+
+}
+
+.team-section {
+    text-align: center;
+}
+
+
+.team-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+}
+
+.sub-section {
+    margin-bottom: 40px;
+}
+
+.sub-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #8e24aa;
+    border: none;
+    border-radius: 5px;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.member {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.member p:first-of-type {
+    font-weight: bold;
+}
+
+.sub-section {
+    margin-bottom: 0;
+}
